@@ -1,0 +1,24 @@
+ //array of fellow profiles
+ let fellows=[
+    {
+        name: "Tangyi irini",
+        role: "data science",
+        points: 80
+    },
+    {
+        name: "Jordy wolfgane",
+        role: "cybersecurity",
+        points: 70
+    },
+    {
+        name: "alberta nfon",
+        role: "software engineering",
+        points: 60
+    },
+   ];
+   //loop through the array of fellows and display their profiles
+    for (let i = 0; i < fellows.length; i++) {
+     console.log("Name: " + fellows[i].name);
+     console.log("Role: " + fellows[i].role);
+     console.log("Points: " + fellows[i].points);
+    }
