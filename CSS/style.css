@@ -7,7 +7,7 @@ h1{
     text-align: center;
 }
 p{
-    color:red;
+    color:rgb(19, 18, 18);
 }
 .interests{
     display:flex;
@@ -20,4 +20,14 @@ p{
     border:2px solid navy;
     padding:15px;
     border-radius:8px;
+}
+button{
+    background-color: blue;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: aqua;
 }
